@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.produto {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.produto h3 {
+    margin-bottom: 5px;
+}
+
+.produto p {
+    margin: 5px 0;
+}
+
+.disponivel {
+    color: rgb(2, 255, 2);
+}
+
+.indisponivel {
+    color: #f00;
+    font-weight: bold;
+}
