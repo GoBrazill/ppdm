@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 20px;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+}
+
+.produto {
+    border: 1px solic #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.produto h3 {
+    margin-bottom: 5px;
+}
+
+.produto p {
+    margin: 5px 0;
+}
+
+.disponivel {
+    color: #0acb0a;
+    font-weight: bold;
+}
+
+.indisponivel {
+    color: #f00;
+}
+
+#form-produto {
+    margin-bottom: 20px;
+}
+
+#form-produto label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#form-produto input {
+    width: 200px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#form-produto button {
+    padding: 8px 12px;
+    margin-top: 20px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #4caf50;
+}

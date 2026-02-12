@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js" defer></script>
+</head>
+
+<body>
+
+
+    <h1>Gerenciador de Produtos</h1>
+    <div id="form-produto">
+
+        <h2>Adicionar produto</h2>
+        <label for="nome">Nome: </label>
+        <input type="text" name="nome" id="nome"><br>
+
+        <label for="preco">Preço: </label>
+        <input type="number" name="preco" id="preco"><br>
+
+        <label for="disponivel">Disponível: </label>
+        <select name="disponivel" id="disponivel">
+            <option value="true">Sim</option>
+            <option value="false">Não</option>
+        </select><br>
+        <button onclick="adicionarProdutos()">Adicionar</button>
+    </div>
+    <h2>Lista de produtos</h2>
+    <div id="lista-produtos">
+        <!-- os produtos serão exibidos dinmicamente com o JS -->
+    </div>
+
+</body>
+
+</html>

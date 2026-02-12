@@ -1,0 +1,17 @@
+[
+    {
+        "nome": "Camiseta Algodão Premium",
+        "preco": 59.90,
+        "disponivel": true
+    },
+    {
+        "nome": "Calça Jeans Slim Fit",
+        "preco": 129.90,
+        "disponivel": false
+    },
+    {
+        "nome": "Tênis Esportivo Runner",
+        "preco": 199.90,
+        "disponivel": true
+    }
+]
