@@ -1,0 +1,10 @@
+div#produto {
+    display: flex;
+    flex-direction: column;
+
+    width: 300px;
+    padding: 1rem;
+
+    border-radius: 5px;
+    background-color: #F0E2CE;
+}
